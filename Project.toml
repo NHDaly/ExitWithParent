@@ -1,0 +1,4 @@
+name = "ExitWithParent"
+uuid = "5bf250a4-babe-11e9-2e7a-6dc191b22934"
+authors = ["Nathan Daly <nhdaly@gmail.com>"]
+version = "0.1.0"
