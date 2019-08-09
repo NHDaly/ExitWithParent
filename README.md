@@ -2,7 +2,7 @@
 
 `exit_with_parent!(p::Base.Process, signal = 2)`
 
-When the current julia process exits, the provided process `p` will be killed with `signal`.
+When the current julia process exits (or is killed), the provided process `p` will be killed with `signal`.
 
 (The function spawns a child process that simply polls until the parent is killed, and then kills `p`.)
 
